@@ -1,7 +1,14 @@
 "use client";
 
 import { FaHtml5, FaCss3, FaJs, FaReact, FaNodeJs } from "react-icons/fa";
-import { SiTailwindcss, SiNextdotjs } from "react-icons/si";
+import {
+  SiTailwindcss,
+  SiNextdotjs,
+  SiBootstrap,
+  SiCsharp,
+  SiMicrosoftsqlserver,
+  SiDotnet,
+} from "react-icons/si";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { motion } from "framer-motion";
 import { ScrollArea } from "@/components/ui/scroll-area";
@@ -102,8 +109,8 @@ const education = {
   items: [
     {
       institution: "School course",
-      degree: "Programming Course",
-      duration: "2023-2024",
+      degree: "BSIT",
+      duration: "2019-2024",
     },
     {
       institution: "DMC College Inc.",
@@ -117,7 +124,7 @@ const education = {
 const skills = {
   title: "My Skills",
   description:
-    "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis nihil ab quae tempore nemo fuga corporis fugiat.",
+    "I'm skilled in developing responsive and interactive web applications, with experience in front-end and back-end technologies. I have a strong foundation in ",
   skillList: [
     {
       icon: <FaHtml5 />,
@@ -146,6 +153,22 @@ const skills = {
     {
       icon: <SiTailwindcss />,
       name: "Tailwind CSS",
+    },
+    {
+      icon: <SiBootstrap />,
+      name: "BootStrap",
+    },
+    {
+      icon: <SiCsharp />,
+      name: "C#",
+    },
+    {
+      icon: <SiMicrosoftsqlserver />,
+      name: "MSSQL",
+    },
+    {
+      icon: <SiDotnet />,
+      name: "ASP.NET & .NET Core",
     },
   ],
 };

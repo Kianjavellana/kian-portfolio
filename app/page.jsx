@@ -24,8 +24,9 @@ const Home = () => {
               <span className="text-accent">Kian Javellana</span>
             </h1>
             <p className="max-w-[500px] mb-9 text-white/80">
-              I excel at crafting elegant digital experience and I am proficient
-              in various programming languages and technologies.
+              I'm a passionate developer eager to build seamless digital
+              experiences, constantly learning and improving my skills in web
+              development.
             </p>
             {/* btn and socials */}
             <div className="flex flex-col xl:flex-row items-center gap-8">

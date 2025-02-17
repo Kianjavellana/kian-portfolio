@@ -24,7 +24,7 @@ const Photo = () => {
           absolute"
         >
           <Image
-            src="/image.png"
+            src="/Kiannew.png"
             priority
             quality={100}
             fill
